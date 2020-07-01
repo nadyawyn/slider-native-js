@@ -27,10 +27,6 @@
 	}
 }
 
-.slider {
-	outline: 1px solid red;
-}
-
 .slider__wrapper {
 	height: 400px;
 	position: relative;
@@ -44,14 +40,13 @@
 .sample-text {
 	display: block;
 	margin: 0 auto;
-	padding: 90px;
+	padding: 150px;
 	text-align: center;
 
 	color: #fff;
 	font-size: 72px;
 	font-family: Arial, Helvetica, sans-serif;
 
-	outline: 1px solid seagreen;
 }
 
 .slider__nav {
@@ -60,7 +55,7 @@
 	height: 100%;
 	width: 70px;
 	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0;
+	opacity: 0.1;
 
 	cursor: pointer;
 
@@ -68,7 +63,7 @@
 }
 
 .slider__nav:hover {
-	opacity: 0.9;
+	opacity: 0.7;
 }
 
 .slider__nav.prev {
@@ -98,7 +93,6 @@
 	display: flex;
 	justify-content: space-between;
 
-	outline: 1px solid yellowgreen;
 }
 
 .slider__dot {
