@@ -13,7 +13,7 @@ This script implements simple slider in vanilla JavaScript where in divs you can
 <h2>Usage</h2>
 <ol>
 <li>Simply connect the script.js to your page </li>
-<li>Copy the <div class='slider'> with its contents or create it anew with the children elements, put there your content
+<li>Copy the div class='slider' with its contents or create it anew with the children elements, put there your content
 <li>Add the proper number of 'slider__dots' corresponding to the number of your slider elements
 <li>Customize the styles using style.css  
 <li>That's it!</li>
